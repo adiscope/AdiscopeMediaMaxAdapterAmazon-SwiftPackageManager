@@ -1,0 +1,1 @@
+# AdiscopeMediaMaxAdapterAmazon-SwiftPackageManager
