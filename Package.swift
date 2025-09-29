@@ -27,13 +27,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterAmazon",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.3.0/AdiscopeMediaMaxAdapterAmazon.zip",
-            checksum: "a06bb1f25d251fae1ba9ade8e3901c022f37d2b4024354f749cdc31bbe582f95"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.4.1/AdiscopeMediaMaxAdapterAmazon.zip",
+            checksum: "eb1becf20f3d386e5d5986a20570fbb61d02cab8c18854da0781e9e73bf74bd7"
         ),
         .binaryTarget(
             name: "DTBiOSSDK",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/DTBiOSSDK.xcframework.zip",
-            checksum: "9950cf49facd8cd21c88b4d636b641c134e20674ec9c53d157c3e20783ce7c0a"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.4.1/DTBiOSSDK.xcframework.zip",
+            checksum: "160468024830b2b6173e5eb0cabf850ce90207a4215066467ad8803bb66eaa98"
         ),
     ]
 )
