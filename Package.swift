@@ -13,13 +13,14 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.1.0"),
+        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.4.0"),
     ],
     targets: [
         .target(
             name: "AdiscopeMediaMaxAdapterAmazonTarget",
             dependencies: [
                 .target(name: "AdiscopeMediaMaxAdapterAmazon"),
+                .target(name: "AdiscopeMediaMaxAdapterAmazonMediationAdapter"),
                 .target(name: "DTBiOSSDK"),
                 .product(name: "AppLovinSDK", package: "AppLovin-MAX-Swift-Package"),
             ],
@@ -27,13 +28,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterAmazon",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.4.1/AdiscopeMediaMaxAdapterAmazon.zip",
-            checksum: "eb1becf20f3d386e5d5986a20570fbb61d02cab8c18854da0781e9e73bf74bd7"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/AdiscopeMediaMaxAdapterAmazon.zip",
+            checksum: "39e01853cc423d96056d7e8d5de5a8c47eac01d63e9d59a1209f7f645b85eb37"
+        ),
+        .binaryTarget(
+            name: "AdiscopeMediaMaxAdapterAmazonMediationAdapter",
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/AppLovinMediationAmazonAdMarketplaceAdapter.xcframework.zip",
+            checksum: "03978a302660050771ef9a31ec6c31c8259d81b5aff1836a01003493d0124e3f"
         ),
         .binaryTarget(
             name: "DTBiOSSDK",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.4.1/DTBiOSSDK.xcframework.zip",
-            checksum: "160468024830b2b6173e5eb0cabf850ce90207a4215066467ad8803bb66eaa98"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/DTBiOSSDK.xcframework.zip",
+            checksum: "cbd1e58f91935cc9045f8cf48fb6e2864c5b4bebd2b3c71c34339f51cd41f193"
         ),
     ]
 )
