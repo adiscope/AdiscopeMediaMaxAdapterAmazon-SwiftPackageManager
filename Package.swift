@@ -13,7 +13,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.4.0"),
+        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.5.1"),
     ],
     targets: [
         .target(
@@ -28,18 +28,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterAmazon",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/AdiscopeMediaMaxAdapterAmazon.zip",
-            checksum: "39e01853cc423d96056d7e8d5de5a8c47eac01d63e9d59a1209f7f645b85eb37"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.2.0/AdiscopeMediaMaxAdapterAmazon.zip",
+            checksum: "f3fac08974a0e212985a58dcb0352342a7b27d07b8bc241b051eed948869638b"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterAmazonMediationAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/AppLovinMediationAmazonAdMarketplaceAdapter.xcframework.zip",
-            checksum: "03978a302660050771ef9a31ec6c31c8259d81b5aff1836a01003493d0124e3f"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.2.0/AppLovinMediationAmazonAdMarketplaceAdapter.xcframework.zip",
+            checksum: "4ef946e7aac3aef93d87f50af9baba1c8a84f7962ab1265793da6c2a22270aa0"
         ),
         .binaryTarget(
             name: "DTBiOSSDK",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/DTBiOSSDK.xcframework.zip",
-            checksum: "cbd1e58f91935cc9045f8cf48fb6e2864c5b4bebd2b3c71c34339f51cd41f193"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.2.0/DTBiOSSDK.xcframework.zip",
+            checksum: "ca1a08923bb911d481d0793980cc3723829bbab5135339d43ca33a8ea1f3d126"
         ),
     ]
 )
